@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nanum Myeongjo', serif!important;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+/* my global CSS */
+
+h1,h2,h3,h4,h5,h6 {
+     color: rgb(37 57 118)!important;
+    font-size: 32px!important;
+    font-weight: 900!important;
+
+}
+section{
+padding-top: 71px!important;}
+
+.color_white,.bg_blue>p,.Degital_marketing_SEO_Services_in_avenue_design_bilaspur>p{
+	color:white!important;
+}
+
+
+
+a {
+    font-size: 17px!important;
+    font-weight: 900!important;
+	color:black!important;
+	
+}
+
+.pad-10,.my_logo,.my_widgets,nav,p,.navigation,.my_banner,section,.my_secrvice,.services_images_01,.services_images_02,.services_images_03,.services_images_04,.content,.my_block,.my_avenue_design,footer{
+    padding: 10px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(0 0 0);
+}
+
+.my_btn {
+    padding: 18px;
+    background: rgb(255 255 255);
+    color: rgb(15 23 50);
+    border-radius: 21px;
+    box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+    font-size: 21px!important;
+}
+.my_btn_blue{
+    padding: 18px;
+    background: rgb(25 49 187);
+    color: rgb(255 255 255)!important;
+    border-radius: 21px;
+	box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+}
+
+.my_widgets>ul>li>a,.my_block>ul>li>a{
+	color:black!important;
+}
+/* --------------- */
+
+.my_logo>span>img {
+    width: 59px;
+}
+
+.logo_name {
+    font-size: 26px;
+    padding: 10px;
+    position: relative;
+    top: 7px;
+}
+
+
+/* ----header_css */
+
+
+.my_widgets>ul>li>a{
+	color:white!important;
+}
+
+.cmpny_name {
+    font-size: 44px!important;
+   
+}
+.color_blue{
+	color:rgb(25 49 187);
+}
+
+.avenue_company_content {
+    padding: 10px;
+    position: relative;
+}
+
+
+/* ----------------- */
+
+
+/* --Navigation Css */
+
+
+.my_menu{
+	display:none!important;
+}
+.navigation>ul>li>a{
+	color:white!important;
+}
+.nav>li{
+	margin:0px 18px;
+}
+
+/* -------------- */
+
+.avenue_company_content>img{
+	border-radius: 40px;
+}
+/* Section Css */
+
+.avenue_company_content {
+    padding: 48px 0px;
+    position: relative;
+
+}
+
+
+.content>p,.avenue_company_content>p{
+	    color: rgb(255 255 255);
+		font-weight:900;
+}
+/*----------*/
+
+.my_banner {
+    background: url(..//images/bg_image.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+} 
+
+
+/* ----service_images */
+
+.my_secrvice {
+    box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+    
+    background-color: rgb(255 255 255);
+    border-radius: 20px;
+}
+
+.my_secrvice>a>img {
+    width: 100%;
+    padding: 10px;
+    height: 133px;
+}
+
+
+/* -------------- */
+
+
+/* ..services_css */
+
+.srv>img {
+    width: 100%;
+    margin: 0 auto;
+    height: 157px;
+}
+
+.services_images_01,
+.services_images_02,
+.services_images_03,
+.services_images_04 {
+    height: 274px;
+    box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+
+.services_images_01 {
+    background: linear-gradient(to bottom, rgb(255 209 105) 0%, rgb(255 164 85) 100%, rgb(255 164 85) 100%);
+}
+
+.services_images_02 {
+    background: linear-gradient(to bottom, rgb(113 115 252) 0%, rgb(96 250 232) 100%);
+}
+
+.services_images_03 {
+    background: linear-gradient(to bottom, rgb(74 255 226) 0%, rgb(25 119 213) 100%);
+}
+
+.services_images_04 {
+    background: linear-gradient(to bottom, rgb(169 134 255) 0%, rgb(249 129 255) 100%);
+}
+
+.leyer{
+	background: rgb(15 23 50 / 42%);
+}
+/* ---------------- */
+
+
+.my_serv>ul>li{
+	box-shadow: 0 11px 13px 2px rgb(202 202 202 / 30%);
+    background-color: rgb(255 255 255);
+    border-radius: 50px;
+	padding: 10px;
+	margin:10px 0px;
+
+}
+.Degital_marketing_SEO_Services_in_avenue_design_bilaspur>img{
+	width:100%;
+	
+	
+}
+.Degital_marketing_SEO_Services_in_avenue_design_bilaspur{
+	background: rgb(255 255 255 / 16%);
+    border-radius: 19px;
+	margin:10px 0px;
+	
+}
+/*-----Footer----*/
+footer{
+	background: rgb(0 0 0 / 81%);
+}
+.my_footer_widget>ul{
+	list-style-type:none!important;
+}
+.my_footer_widget>ul>li>a{
+	color:white!important;
+}
+.avenue_company_content-card{
+	    width: 51%;
+    background: rgb(255 255 255);
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+    left: 139px;
+    color: rgb(255 255 255)!important;
+	padding:20px;
+	box-shadow: 0 11px 13px 2px rgb(202 202 202 / 30%);
+	
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+/* keshav change css  new update*/
+
+.whiteb8b8d17a{
+    color: #b8b8d17a;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+   box-shadow: 0px 0px 10px 0px #80808069;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background: rgb(75 183 189);
+    
+}
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background:rgb(59 2 88);
+
+}
+
+.unstyled1{
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+   
+    text-decoration: none!important;
+    background-color: #eeeeee85 !important;
+    border-radius: 31px !important;
+}
+
+.bg_blue{
+      background: rgb(63 68 96 / 80%)!important;
+      box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+}
+
+.pad5px{
+    padding: 6px !important;
+}
+.pad0px{
+    padding: 0px !important;
+}
+
+.margin66{
+    margin: 6px 0px 0px 0px;
+}
+
+/*clses fooofter new update*/
+

@@ -1,0 +1,75 @@
+@media(max-width:1200px){
+	.avenue_company_content>img {
+    width: 100%;
+   }
+    header {
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background: rgb(21,21,21);
+	
+   }
+	.services_images_01,
+	.services_images_02,
+	.services_images_03,
+	.services_images_04,.srv>img,.my_secrvice>a>img {
+		height: auto;
+	}
+	
+	.my_menu{
+	font-size: 36px;
+    position: absolute;
+    right: 23px;
+    top: -53px;
+    width: 50px;
+    height: 39px;
+    display: block!important;
+    right: 0px;
+
+
+	}
+	.bar1, .bar2, .bar3 {
+    
+    background-color: rgb(254 254 254)!important;
+  
+    transition: 0.4s;
+    /* border-color: rgb(255 255 255); */
+   }
+	nav{
+	position: fixed;
+    width: 100%;
+    top: 67px;
+
+	}
+	.dis {
+        display: none;
+    }
+	.my_secrvice,.services_images_01{
+		margin:15px 0px;
+	}
+	.my_widgets{
+		display:none!important;
+	}
+	
+	.menu_mobile{
+	  display:flex!important;
+	  margin: 0 auto!important;
+     }
+	
+	
+	.avenue_company_content-card{
+	width: 100%;
+    background: rgb(255 255 255);
+    border-radius: 20px;
+    position: relative;
+    top: 105px;
+    left: 0px;
+    color: rgb(255 255 255)!important;
+    padding: 20px;
+    box-shadow: 0 11px 13px 2px rgb(202 202 202 / 30%);
+	
+}
+
+	
+	
+}

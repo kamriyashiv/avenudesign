@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Font_family  Css -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+    <!-- icon_link -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <main>       <!---------------- start main----------- -->
+    <!------------HEADER START---------------->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="my_logo">
+                        <span><img src="images/logo_avenue_design_website_app_development_digital_marketing_company_in_bilaspur.png" alt="logo_avenue_design_website_app_development_digital_marketing_company_in_bilaspur"></span>
+                    </div>
+                    <!--//my_logo-->
+                </div>
+                <!--//col-md-6-->
+                <div class="col-md-6">
+                    <div class="my_widgets">
+                        <ul class="navbar-nav nav">
+                            <li><a href="tel:8224973413"><i class="fa fa-phone" style="font-size:24px"></i> 8224973413</a></li>
+                            <li><a href="mailto:avenuedesign768@gmai.com"><i class="fa fa-envelope" style="font-size:24px"></i>  avenuedesign768@gmai.com</a></li>
+
+
+                        </ul>
+                        <!--End__list_of_widgets-->
+                    </div>
+                    <!--//my_widget-->
+						<div class="my_menu" onclick="myFunction(this)" onclick="my_tab()">
+						  <div class="bar1 color_white"></div>
+						  <div class="bar2 color_white"></div>
+						  <div class="bar3 color_white"></div>
+						</div>
+						</div>
+                <!--//col-md-6-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </header>
+    <!------------END HEADER ---------------->
+
+    <!---------------NAVIGATION STRAT----------->
+    <nav class="pad0px">
+        <div class="container pad5px">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="navigation pull-right">
+                        <ul class="navbar-nav nav" style="">
+                            <li>
+                                <a href="#index">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#service">Service</a>
+                            </li>
+                            <li>
+                                <a href="#gallery">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact Us</a>
+                            </li>
+                        </ul>
+                        <!--list_of_menu---->
+                    </div>
+                    <!--///navigation-->
+                </div>
+                <!--//col-md-8-->
+                <div class="col-md-4">
+                    <div class="navigation-btn pull-right margin66">
+                        <ul class="navbar-nav nav">
+                            <li>
+                                <a href="tel:8224973413" class="pad-10 my_btn"><b> <i class="fa fa-phone" style="font-size:24px"></i> Call Us</b></a>
+                            </li>
+                        </ul>
+                        <!--list_of_menu---->
+                    </div>
+                    <!--///navigation-->
+                </div>
+                <!--//col-md-6-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </nav>
+    <!------------//END NAVIGATION  ---------->
+
+
+    <!--------------//START SECTION (0) ----------------->
+    <article class="my_banner" id="index">
+        <div class="leyer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="avenue_company_content pad-10">
+                            <h1 class="cmpny_name color_white"><b>Avenue</b><span> Design</span></h1>
+                            <p>Website & App Development Company</p>
+                            <p>Creating game-changing products that invoke a sense of excitement, closeness and satisfaction for the user.</p>
+                            <a href="#projects" class="pad-10 my_btn"><i class='fab fa-qq' style='font-size:24px'></i> Our Work</a>
+                        </div>
+                        <!--///avenue_company_content-->
+                    </div>
+                    <!--//col-md-6-->
+                    <div class="col-md-6">
+                        <div class="avenue_company_content-card text-center">
+                             <img src="images/website_app_development_company_in_bilaspur.png" class="img-responsive">
+							 <p class="pad-10"><b>Be Creative,Be World Wide with</b></p>
+                        </div>
+                        <!--///avenue_company_content-->
+                    </div>
+                    <!--//col-md-6-->
+                </div>
+                <!--//row-->
+            </div>
+            <!--//container-->
+    </article>
+    <!--//section-->
+
+    <!-------------END SECTION (0)--------->
+
+
+    <!--------------//START SECTION (1) ----------------->
+    <section id="about" style="background-color: #4bb7bd63;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="avenue_company_content_ pad-10">
+                        <h2 class="cmpny_name "><b>Avenue</b> Design</h2>
+
+                        <p>“Our services are designed to take your business to the next level, reducing the gap between you and the heights of success you wish to achieve.. </p>
+                        <p>We have consistently delivered optimal solutions for our wide-ranging global client base. Leverage our rich experience for your unique IT requirements.”</p>
+                        <a href="#service" class="pad-10 my_btn_blue">Our Services</a>
+                    </div>
+                    <!--///avenue_company_content-->
+                </div>
+                <!--//col-md-6-->
+                <div class="col-md-6">
+                    <div class="avenue_company_content">
+                        <img src="images/avenuedesign_website_app_development_company_in_bilaspur.png" alt="degital_marketing_company_in_bilaspur_avenue_design_website_app_development_company" class="img-responsive">
+                    </div>
+                    <!--///avenue_company_content-->
+                </div>
+                <!--//col-md-6-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+        </div>
+        <!--//leyer-->
+    </section>
+    <!--//section-->
+
+    <!-------------END SECTION (1)--------->
+
+
+    <!--------------SECTION START SECTION (2)--( What We Do )------>
+
+
+    <!-- section--->
+
+
+    <hr>
+    <section class="wrapper" id="service">
+        <div class="container">
+            <div class="row">
+                <h3>What we do ?</h3>
+                <p>we are expert for ......</p>
+                <div class="col-md-3">
+                    <div class="services_images_01 text-center srv block animatable bounceIn">
+                        <img src="images/app_development_by_avenue_design_bilaspur.png" alt="app_development_by_avenue_design_bilaspur" class="img-responsive">
+                        <div class="content">
+                            <p>App Development</p>
+                        </div>
+                        <!--//content-(App Development)--->
+                    </div>
+                    <!--//services_images-->
+                </div>
+                <!--//col-md-3-->
+                <div class="col-md-3">
+                    <div class="services_images_02 text-center srv">
+                        <img src="images/website_development_avenue_design_bilaspur.png" alt="website_development_avenue_design_bilaspur" class="img-responsive">
+                        <div class="content">
+                            <p>Website Development</p>
+                        </div>
+                        <!--//content-(Website Development)--->
+                    </div>
+                    <!--//services_images-->
+                </div>
+                <!--//col-md-3-->
+                <div class="col-md-3">
+                    <div class="services_images_03 text-center srv">
+                        <img src="images/degital_marketing_comapny_in_bilaspur_avenue_design_website_app_development_acompany_.png" alt="degital_marketing_comapny_in_bilaspur_avenue_design_website_app_development_acompany_" class="img-responsive">
+                        <div class="content">
+                            <p>Degital Marketing</p>
+                        </div>
+                        <!--//content-(Degital_marketing)--->
+                    </div>
+                    <!--//services_images-->
+                </div>
+                <!--//col-md-3-->
+                <div class="col-md-3">
+                    <div class="services_images_04 text-center srv">
+                        <img src="images/seo_website_development_company_in_bilaspur_avenue_design_bilaspur.png" alt="seo_website_development_company_in_bilaspur_avenue_design_bilaspur" class="img-responsive">
+                        <div class="content">
+                            <p>SEO Service</p>
+                        </div>
+                        <!--//content-(SEO Service)--->
+                    </div>
+                    <!--//services_images-->
+                </div>
+                <!--//col-md-3-->
+            </div>
+            <!--//row-->
+        </div>
+        <!--//container-->
+    </section>
+    <!-- //section -->
+
+    <!-----------//END SECTION (2)--------->
+
+
+    <!--------STAR SECTION (3)---(For Service)------>
+    <!--section--->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="my_services_heighlight">
+                        <h4><b>Our Services</b></h4>
+                        <p>Services we provide...</p>
+                    </div>
+                    <!--//my_service_heghtlight-->
+                </div>
+                <!--//col-md-12-->
+                <div class="col-md-4">
+                    <div class="my_serv text-center">
+                        <ul class="nav">
+                            <li>
+                                <a href="#">Website Development</a>
+                            </li>
+                            <li class="bg_blue">
+                                <a href="#" class="color_white">App Development</a>
+                            </li>
+                            <li>
+                                <a href="#">Wordpress Development</a>
+                            </li>
+                            <li class="bg_blue ">
+                                <a href="#" class="color_white">CMS Project Development</a>
+                            </li>
+                            <li>
+                                <a href="#">Responsive Websites</a>
+                            </li>
+                        </ul>
+                        <!---//ul_list-->
+                    </div>
+                    <!-- //my_serv -->
+                </div>
+                <!-- //col-md-4 -->
+                <div class="col-md-4">
+                    <div class="my_serv text-center">
+                        <ul class="nav">
+                            <li>
+                                <a href="#">Ecommerce Website Development</a>
+                            </li>
+                            <li class="bg_blue ">
+                                <a href="#" class="color_white">Matrimonial Websites </a>
+                            </li>
+                            <li>
+                                <a href="#">Hospital Websites Development</a>
+                            </li>
+                            <li class="bg_blue">
+                                <a href="#" class="color_white">Hotel Websites Development</a>
+                            </li>
+                            <li>
+                                <a href="#">Responsive Websites</a>
+                            </li>
+                        </ul>
+                        <!---//ul_list-->
+                    </div>
+                    <!-- //my_serv -->
+                </div>
+                <!-- //col-md-4 -->
+                <div class="col-md-4">
+                    <div class="my_serv text-center">
+                        <ul class="nav">
+                            <li>
+                                <a href="#">Degital Marketing</a>
+                            </li>
+                            <li class="bg_blue">
+                                <a href="#" class="color_white">SEO Optimization</a>
+                            </li>
+                            <li>
+                                <a href="#">Banner Design</a>
+                            </li>
+                            <li class="bg_blue">
+                                <a href="#" class="color_white">Branding</a>
+                            </li>
+                            <li>
+                                <a href="#">Visiting Card</a>
+                            </li>
+                        </ul>
+                        <!---//ul_list-->
+                    </div>
+                    <!-- //my_serv -->
+                </div>
+                <!-- //col-md-4 -->
+            </div>
+            <!-- //row -->
+        </div>
+        <!--//container-->
+    </section>
+    <!--section--->
+
+    <!------------//END SECTION (3)-------->
+
+
+    <!----------- SECTION START (4)--(Projects)----->
+
+
+    <section id="projects">
+        <div class="container ">
+            <div class="row ">
+                <!--//heading Our Service -->
+                <h5>What we have Done ?</h5>
+                <p>We have done many projects and give a better service to our clients.</p>
+                <div class="col-md-3 ">
+
+                    <div class="my_secrvice ">
+                        <a href="http://hotelregal.in/ " target="_blank "><img src="images/hotel_regal_by_avenue_design_website_app_development_company_in_bilaspur.png " alt="hotel_regal_by_avenue_design_website_app_development_company_in_bilaspur ">
+                            <p>Hotel Regal & Restourent</p>
+                        </a>
+
+
+                        <!--//my_under_image-->
+                    </div>
+                    <!-----//secrvice-->
+                </div>
+                <!-- //col-md-3 -->
+                <div class="col-md-3 ">
+                    <div class="my_secrvice ">
+                        <a href="http://fydabazar.in/ " target="_blank "> <img src="images/fydabazar_ecommerce_website_by_avenue_design_website_app_development_in_bilaspur.png " alt="hotel_regal_by_avenue_design_website_app_development_company_in_bilaspur ">
+                            <p>Fyda Bazar Online Fashion Store</p>
+                        </a>
+
+                        <!--//my_under_image-->
+                    </div>
+                    <!-----//secrvice-->
+                </div>
+                <!-- //col-md-3 -->
+                <div class="col-md-3 ">
+                    <div class="my_secrvice ">
+                        <a href=" " target="_blank "> <img src="images/shivam_motore_tata_motor_by_avenue_design_website_app_development_in_bilaspur.png " alt="hotel_regal_by_avenue_design_website_app_development_company_in_bilaspur ">
+                            <p>Shivam Motor (TATA Motor)</p>
+                        </a>
+
+                        <!--//my_under_image-->
+                    </div>
+                    <!-----//secrvice-->
+                </div>
+                <!-- //col-md-3 -->
+                <div class="col-md-3 ">
+                    <div class="my_secrvice ">
+                        <a href="http://shreeleelayogaclasses.co.in/ " target="_blank "> <img src="images/shree_leele_yoga_classes_by_avenue_design_website_&app_website_development_in_bilaspur.png " alt="hotel_regal_by_avenue_design_website_app_development_company_in_bilaspur ">
+                            <p>Shree Leela Yoga Classes</p>
+                        </a>
+
+                        <!--//my_under_image-->
+                    </div>
+                    <!-----//secrvice-->
+                </div>
+                <!-- //col-md-3 -->
+
+            </div>
+            <!--//row-->
+
+
+        </div>
+        <!---//container-->
+    </section>
+    <!--section-->
+    <!-----------END SECTION(4)--------->
+
+
+    <!----------- SECTION START (5)------->
+
+    <!--//heading Our Service -->
+    <section id="projects">
+        <div class="container ">
+            <!--Second Service_ row Start--->
+            <div class="row ">
+                <div class="col-md-3 ">
+
+                    <div class="my_secrvice ">
+                        <a href="https://spectrumdart.com/" target="_blank "><img src="images/spectrum_dart_co_bt_avenue_design_website_and_app_development_company_in_bilaspur.png " alt="spectrum_dart_co_bt_avenue_design_website_and_app_development_company_in_bilaspur ">
+                            <p><b>Spectrum Dart.co</b> Online Fasion Store</p>
+                        </a>
+
+
+                        <!--//my_under_image-->
+                    </div>
+                    <!-----//secrvice-->
+                </div>
+                <!-- //col-md-3 -->
+                <div class="col-md-3 ">
+                    <div class="my_secrvice ">
+                        <a href="http://adhishreedentalclinic.com/" target="_blank "> <img src="images/adheeshree_dental_clinic_in_bilaspur_by_avenue_design_website_app_development_company_in_bilaspur.png " alt="adheeshree_dental_clinic_in_bilaspur_by_avenue_design_website_app_development_company_in_bilaspur ">
+                            <p>Adheeshree Dental Clinic</p>
+                        </a>
+
+                        <!--//my_under_image-->
+                    </div>
+                    <!-----//secrvice-->
+                </div>
+                <!-- //col-md-3 -->
+                <div class="col-md-3 ">
+                    <div class="my_secrvice ">
+                        <a href="http://jndentalclinic.com/" target="_blank "> <img src="images/jn_dental_clinic_in_bilaspur_by_avenue_design_websitapp_development_company_in_bilaspur_.png " alt="jn_dental_clinic_in_bilaspur_by_avenue_design_websitapp_development_company_in_bilaspur_ ">
+                            <p>J.N. Dental Clinic in Bilaspur</p>
+                        </a>
+
+                        <!--//my_under_image-->
+                    </div>
+                    <!-----//secrvice-->
+                </div>
+                <!-- //col-md-3 -->
+                <div class="col-md-3 ">
+                    <div class="my_secrvice ">
+                        <a href="http://vishwakarmafurnituredoors.in/ " target="_blank "> <img src="images/vishvakarma_furnture_doors_&_furniture_in_bilaspur_by_avenue_design_website_app_developmnet_company_in_bilaspur.png " alt="vishvakarma_furnture_doors_&_furniture_in_bilaspur_by_avenue_design_website_app_developmnet_company_in_bilaspur ">
+                            <p>Vishvakrma Furniture & Doors </p>
+                        </a>
+
+                        <!--//my_under_image-->
+                    </div>
+                    <!-----//secrvice-->
+                </div>
+                <!-- //col-md-3 -->
+
+            </div>
+            <!--//-Second Service_ row Start--->
+
+        </div>
+        <!---//container-->
+    </section>
+    <!--section-->
+    <!-----------//END SECTION(5)--------->
+
+    <!----------START SECTION (6)---------->
+
+    <!--section-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h6><b>Why Avenue Design ?</b></h6>
+                        <p>We are trying to our best for your business growth</p>
+                    </div>
+                </div>
+                <!--//col-md-12-->
+                <div class="col-md-3">
+                    <div class="my_avenue_design text-center bg_blue color_white">
+                        <i class='fas fa-clipboard-check' style='font-size:36px'></i>
+                        <p>Timely delivery</p>
+                    </div>
+                    <!--//my_avenue_design-->
+                </div>
+                <!--//col-md-3-->
+                <div class="col-md-3">
+                    <div class="my_avenue_design text-center">
+                        <i class='fas fa-award' style='font-size:36px'></i>
+                        <p>Fully User Friendly Products </p>
+                    </div>
+                    <!--//my_avenue_design-->
+                </div>
+                <!--//col-md-3-->
+                <div class="col-md-3">
+                    <div class="my_avenue_design text-center bg_blue color_white">
+                        <i class="fa fa-support" style="font-size:36px"></i>
+                        <p>Better Support</p>
+                    </div>
+                    <!--//my_avenue_design-->
+                </div>
+                <!--//col-md-3-->
+                <div class="col-md-3">
+                    <div class="my_avenue_design text-center">
+                        <i class='fas fa-bullhorn' style='font-size:36px'></i>
+                        <p>Best SEO Service & Responsive website</p>
+                    </div>
+                    <!--//my_avenue_design-->
+                </div>
+                <!--//col-md-3-->
+            </div>
+            <!-- //row -->
+        </div>
+        <!-- //container -->
+    </section>
+    <!--//section--->
+    <!----------//END SECTION (6)--------->
+
+    <!-----------------START SECTION (7) ------------->
+    <!-- SECTION -->
+    <article class="bg_blue pad-10">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="color_white"><b>Complete Digital Marketing Service Provider</b></h2>
+                    <p class="color_white">SEARCH ENGINE & SOCIAL MEDIA OPTIMIZATION</p>
+                </div>
+                <!-- //col-md-12 -->
+                <div class="col-md-3">
+                    <div class="Degital_marketing_SEO_Services_in_avenue_design_bilaspur pad-10 text-center">
+                        <img src="images/social_media_markting_in_bilaspur_avenue_design_website_and_app_development_cpmpany.png" alt="social_media_markting_in_bilaspur_avenue_design_website_and_app_development_cpmpany">
+                        <p>Social Media Marketing</p>
+                    </div>
+                    <!--//service_01-->
+                </div>
+                <!-- //col-md-3 -->
+                <div class="col-md-3">
+                    <div class="Degital_marketing_SEO_Services_in_avenue_design_bilaspur pad-10 text-center">
+                        <img src="images/business_advertising_in_bilaspur_avenue_design_website_app_development_copmany_in_bilaspur.png" alt="business_advertising_in_bilaspur_avenue_design_website_app_development_copmany_in_bilaspur">
+                        <p>Business Paid Advertising</p>
+                    </div>
+                    <!--//service_02-->
+                </div>
+                <!-- //col-md-3 -->
+                <div class="col-md-3">
+                    <div class="Degital_marketing_SEO_Services_in_avenue_design_bilaspur pad-10 text-center">
+                        <img src="images/website design_in_bilaspur_avenue_design_website_app_development_company_in_bilaspur.png" alt="website design_in_bilaspur_avenue_design_website_app_development_company_in_bilaspur">
+                        <p>Website Development</p>
+                    </div>
+                    <!--//service_03-->
+                </div>
+                <!-- //col-md-3 -->
+                <div class="col-md-3">
+                    <div class="Degital_marketing_SEO_Services_in_avenue_design_bilaspur pad-10 text-center">
+                        <img src="images/best_SEO_Service_in_bilaspur_avenue_design_bilaspur_website_app_development_company_.png" alt="best_SEO_Service_in_bilaspur_avenue_design_bilaspur_website_app_development_company_">
+                        <p>Long Term & Best SEO </p>
+                    </div>
+                    <!--//service_04-->
+                </div>
+                <!-- //col-md-3 -->
+            </div>
+            <!-- //row -->
+        </div>
+        <!-- //container -->
+    </article>
+    <!-- //SECTION -->
+    <!-- ----------------END SECTION (7) ----------------->
+
+
+    <!-- -------------------START SECTION (8)- --------->
+    <!-- SECTION lets talk -->
+    <section class="pad-10" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="my_block">
+                        <h1><b>Lets Talk About Your  Project</b></h1>
+                        <p>Don't be hesitate to connect with us</p>
+                        <ul class="nav">
+                            <li>
+                                <a href="tel:8224973413">
+                                    <i class="fa fa-phone " style="font-size:24px "></i> <b>82249-73413 </b>
+                                </a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-whatsapp" style="font-size:24px"></i> <b>82259-89867</b></a></li>
+                            <li>
+                                <a href="tel:8224973413">
+                                    <i class="fa fa-envelope " style="font-size:24px "></i> <b>avenuedesign768@gmail.com</b>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-map-marker" style="font-size:24px"></i> <b>GANGA NAGAR SECTOR-2,NEAR SHIV MANDIR, MANGLA CHOWK , <br>BILASPUR-495001, CHHATTISGARH</b>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                        <!--//ul+lisy-->
+                        <ul class="navbar-nav nav menu_mobile pad-10">
+                            <li><a href="# "><i class="fa fa-facebook-square " style="font-size:35px "></i></a></li>
+                            <li><a href="# "><i class="fa fa-instagram " style="font-size:35px "></i></a></li>
+                            <li><a href="# "><i class="fa fa-twitter-square " style="font-size:35px "></i></a></li>
+                        </ul>
+                        <!--//ul_list-->
+
+                    </div>
+                </div>
+                <!-- //col-md-4 -->
+                <div class="col-md-6">
+                    <div class="my_block pad-10">
+                        <img src="images/mobile_app+development_in_bilaspur_avenue_design_website_appp_develoipment_.png" alt="mobile_app+development_in_bilaspur_avenue_design_website_appp_develoipment_" class="img-responsive pad-10">
+                    </div>
+                </div>
+                <!-- //col-md-4 -->
+            </div>
+            <!-- //row -->
+        </div>
+        <!-- //container -->
+    </section>
+    <!-- .//section -->
+    <!-- ---------------------//END SECTION (8)-------->
+
+
+
+
+
+    <!-------------FOOTER START------------->
+
+    <!--footer-->
+    <footer>
+        
+        <!--container--->
+    </footer>
+    <!--//footer-->
+
+
+    <!---------------- END FOOTER----------- -->
+
+</main>
+   <!---------------- END main----------- -->
+
+    <script src="javascript/coustom.js"></script>
+    <script src="javascript/footer.js"></script>
+
+
+</body>
+
+<!-- --END BODY  -->
+
+
+</html>
